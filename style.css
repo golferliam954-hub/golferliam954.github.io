@@ -1,123 +1,61 @@
-/* General reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background: #f8f9fa;
-  color: #333;
+  background: #f4f6f8;
+  color: #1f2937;
 }
 
 header {
-  background: #2c7a7b;
+  background: #0b1f3a;   /* Navy */
   color: white;
   text-align: center;
   padding: 2rem;
 }
 
 nav {
-  background: #285e61;
-}
-
-nav ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-}
-
-nav ul li {
-  margin: 0 15px;
+  background: #102a4d;   /* Darker Navy */
 }
 
 nav ul li a {
   color: white;
   text-decoration: none;
   padding: 10px;
+  transition: 0.3s;
 }
 
 nav ul li a:hover {
-  background: #2c7a7b;
+  background: #c99700;   /* Gold */
+  color: white;
   border-radius: 5px;
-}
-
-main {
-  max-width: 900px;
-  margin: 2rem auto;
-  padding: 0 1rem;
-}
-
-section {
-  margin-bottom: 2rem;
 }
 
 h2 {
-  margin-bottom: 0.5rem;
-  color: #2c7a7b;
-}
-
-ul {
-  list-style: square inside;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 1rem;
-}
-
-table, th, td {
-  border: 1px solid #ccc;
-  padding: 8px;
+  color: #0b1f3a;
 }
 
 table th {
-  background: #e2e8f0;
+  background: #0b1f3a;
+  color: white;
 }
 
 table tr:nth-child(even) {
-  background: #f1f5f9;
-}
-
-.video-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;       /* space between videos */
-  justify-content: center;
-  margin-top: 1rem;
+  background: #eef2f7;
 }
 
 .video-gallery video {
-  width: 300px;     /* adjust size as needed */
-  height: auto;
-  border: 2px solid #2c7a7b;  /* optional border for style */
-  border-radius: 8px;
-  transition: transform 0.2s ease-in-out;
+  border: 2px solid #0b1f3a;
 }
 
-.video-gallery video:hover {
-  transform: scale(1.03);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-}
-
-/* Academics Section */
 #academics {
-  background: #edf2f7;   /* light gray-blue background */
-  padding: 1.5rem;
-  border-left: 5px solid #2c7a7b;
-  border-radius: 5px;
+  background: #eef4fb;
+  border-left: 5px solid #c99700;
 }
 
 footer {
   text-align: center;
   padding: 1rem;
-  background: #285e61;
+  background: #0b1f3a;
   color: white;
-  margin-top: 2rem;
 }
-
 
 
